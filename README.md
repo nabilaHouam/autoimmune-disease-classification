@@ -1,4 +1,7 @@
 # 🧬 Autoimmune Disease Classification using Machine Learning
+🚀 Machine learning project applied to real-world clinical data (12,000+ patients)
+
+👉 Can biological markers alone distinguish between autoimmune diseases?
 
 ## 🎯 Objective
 
