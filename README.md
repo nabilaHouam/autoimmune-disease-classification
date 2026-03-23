@@ -46,8 +46,15 @@ The dataset is designed for early diagnosis of autoimmune diseases.
 
 ## 🧠 Key Insight
 
-The model relies mainly on inflammation markers (CRP, ESR),  
-highlighting the difficulty of distinguishing diseases with overlapping biological profiles.
+The model relies heavily on general inflammation markers (CRP, ESR),  
+rather than disease-specific biomarkers.
+
+👉 This reveals a key limitation:
+
+Different autoimmune diseases often share overlapping biological profiles,  
+making accurate classification inherently difficult.
+
+This mirrors real-world clinical challenges in diagnosis.
 
 ---
 
@@ -65,7 +72,17 @@ Machine learning can support diagnosis,
 but cannot replace clinical reasoning.
 
 ---
+## 💡 Why This Project Matters
 
+Autoimmune diseases are difficult to diagnose due to:
+- overlapping symptoms
+- lack of highly specific biomarkers
+- variability across patients
+
+This project shows how machine learning can help —  
+but also highlights its current limitations in real clinical settings.
+
+---
 ## 📂 Files
 
 - `projet_final_1.ipynb` → full analysis and model
