@@ -32,7 +32,20 @@ The dataset is designed for early diagnosis of autoimmune diseases.
 ---
 
 ## 📈 Results
+## 📊 Confusion Matrix
 
+![Confusion Matrix](image.png)
+
+### Interpretation
+
+The confusion matrix highlights key patterns:
+
+- Rheumatoid Arthritis is well identified
+- Systemic Lupus Erythematosus shows near-perfect classification
+- Ankylosing Spondylitis is often confused with Rheumatoid Arthritis
+- Reactive Arthritis is also difficult to distinguish
+
+These results reflect overlapping biological profiles between diseases.
 - Accuracy ≈ 85%
 - Strong performance for:
   - Rheumatoid Arthritis
